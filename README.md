@@ -16,7 +16,7 @@ This implementation also using OpenAPI for API documentation. The API documentat
 ## How to run
 Before running, this app need to generate public and private key for PASETO. The public key will be used to verify the token and the private key will be used to sign the token. The public and private key can be generated using the following command:
 ```bash 
-go run main.go
+go run initial/main.go
 ```
 
 After running, set Public and Private key in .env file. The .env file should be in the root directory of the project. The .env file should contain the following:
